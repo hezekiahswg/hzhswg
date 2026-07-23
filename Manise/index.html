@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Manise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <div class="container pt-3 sticky-top">
+        <nav class="navbar navbar-expand-lg px-3 rounded" data-bs-theme="dark">
+            <!-- Klik Logo / Nama untuk kembali ke paling atas -->
+            <a class="navbar-brand fw-bold">
+                <img src="logo1.png" alt="Bootstrap" width="50">
+                Manise
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto d-flex gap-5">
+                    <!-- LINK NAVBAR DIUBAH MENJADI MENGARAH KE ID -->
+                    <a class="nav-link" href="#about-me">About me</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
+                    <a class="nav-link me-5" href="#projects">Project</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end navbar -->
+
+    <!-- jumbotron  -->
+    <div class="container text-center mt-5" >
+        <div class="jumbotron jumbotron-fluid">
+            <img src="prof.jpeg" alt="" width="200" height="200" style="object-fit: cover;" class="border border-2 rounded-circle ">
+            <div class="container">
+                <h1 class="display-4">Hezekiah Adriel Ayal</h1>
+                <p class="skill">UI Designer | IOT Speciaist</p>
+                <p id="about-me" class="lead">
+                    Saya adalah mahasiswa Sofware Engineering, saya senang mengeksplorasi teknologi baru
+                    serta menciptakan desain aplikasi yang sederhana,
+                    modern, dan mudah digunakan.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end jumbotron -->
+
+    <!-- pembatas garis & about me (Sudah memiliki id="about-me") -->
+    <div class="container" >
+        <!-- Garis Pembatas -->
+        <div class="my-5 mx-auto" style="height: 2px; width: 60%; background: linear-gradient(90deg, rgba(13,110,253,0) 0%, rgba(13,110,253,0.8) 50%, rgba(13,110,253,0) 100%);"></div>
+
+        <div class="row align-items-center">
+            <!-- Kolom Gambar -->
+            <div class="col-md-4 text-center mb-4 mb-md-0">
+                <img src="logo1.png" alt="Hezekiah Adriel Ayal" class="img-fluid rounded-circle shadow" style="width: 250px; height: 250px; object-fit: cover;">
+            </div>
+            
+            <!-- Kolom Penjelasan -->
+            <div class="col-md-8">
+                <h2 class="fw-bold mb-3">About Me</h2>
+                <p>
+                    Halo! Saya Hezekiah, seorang calon Software Engineer yang memiliki ketertarikan mendalam di bidang <strong>UI/UX Design</strong> dan <strong>Internet of Things (IoT)</strong>. Bagi saya, teknologi bukan hanya tentang fungsionalitas, tetapi juga tentang bagaimana memberikan pengalaman pengguna yang intuitif dan estetis.
+                
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end about me -->
+
+    <div class="d-flex align-items-center justify-content-center my-5 gap-3 opacity-50">
+        <span style="width: 8px; height: 8px; background-color: rgba(0, 132, 255, .4); border-radius: 50%; display: inline-block;"></span>
+        <span style="width: 12px; height: 12px; background-color: rgba(0, 132, 255, .5);border-radius: 50%; display: inline-block;"></span>
+        <span style="width: 8px; height: 8px; background-color: rgba(0, 132, 255, .4); border-radius: 50%; display: inline-block;"></span>
+    </div>
+
+    <!-- Riwayat Pendidikan (Diberi id="education") -->
+    <div class="d-flex flex-column align-items-center text-center" >
+        <h2 class="mb-4">Riwayat Pendidikan</h2>
+        
+        <!-- Wrapper untuk menjaga garis biru tetap menyatu & berada di tengah -->
+        <div class="border-start border-3 border-primary ps-3 text-start">
+            <div class="mb-3 text-primary fw-bold">
+                SMA Swasta Primbana Medan
+            </div>
+            <div class="mb-3 text-primary fw-bold">
+                SMP Negeri 1 Kuta Utara Bali
+            </div>
+            <div class="text-primary fw-bold">
+                SD Negeri 2 Kerobokan Bali
+            </div>
+        </div>
+    </div>
+
+    <div  id="projects" class="d-flex align-items-center justify-content-center my-5 gap-3 opacity-50">
+        <span style="width: 8px; height: 8px; background-color: rgba(0, 132, 255, .4); border-radius: 50%; display: inline-block;"></span>
+        <span style="width: 12px; height: 12px; background-color: rgba(0, 132, 255, .5);border-radius: 50%; display: inline-block;"></span>
+        <span style="width: 8px; height: 8px; background-color: rgba(0, 132, 255, .4); border-radius: 50%; display: inline-block;"></span>
+    </div>
+
+    <!-- Section Projects (Sudah memiliki id="projects") -->
+    <section class="py-5" style="background-color: rgba(255, 255, 255, 0.03);">
+        <div class="container">
+            
+            <!-- Judul Section -->
+            <div class="text-center mb-5">
+                <h2 class="fw-bold text-black">Hezekiah's Project</h2>
+                <p class="text-primary">Beberapa karya dan proyek situs web yang telah saya kembangkan.</p>
+            </div>
+
+            <!-- Grid Projects -->
+            <div class="row g-4 justify-content-center">
+                
+                <!-- Projek 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 bg-grey text-black shadow-sm">
+                        <img src="MercyTech.png" class="card-img-top" alt="Preview Projek 1" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">MercyTech's</h5>
+                            <p class="card-text text-secondary flex-grow-1">
+                                UI Website Smart Farming Modern (IoT) untuk digitalisasi Pertanian Modern
+                            </p>
+                            
+                            <div class="mb-3">
+                                <span class="badge bg-primary me-1">Figma</span>
+                            </div>
+                            
+                            <a href="https://www.figma.com/proto/ZxBMvvl71ZjmpNpDyJdJYr/fikri-project-s?node-id=0-1&t=Is727yuhp2sSghFi-1" target="_blank" class="btn btn-outline-primary w-100 mt-auto">Lihat Website &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projek 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 bg-grey text-black shadow-sm">
+                        <img src="DesignLab's.png" class="card-img-top" alt="Preview Projek 2" style="height: 200px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold">Desaign Lab's</h5>
+                            <p class="card-text text-secondary flex-grow-1">
+                                UI Website Jasa Design Grafis
+                            </p>
+                            <div id="Contact" class="mb-3">
+                                <span class="badge bg-primary me-1">Figma</span>
+                            </div>
+                            <a href="https://www.figma.com/proto/3dXJQPlREaTyQaKnwCZ2HJ/DesignLab?node-id=5-2&t=Is727yuhp2sSghFi-1" target="_blank" class="btn btn-outline-primary w-100 mt-auto">Lihat Website &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-2 text-secondary">&copy; 2026 Hezekiah Adriel Ayal. All rights reserved.</p>
+            <div>
+                <a href="https://instagram.com/hezekiah.adr" target="_blank" class="text-primary text-decoration-none fw-semibold opacity-75 opacity-100-hover">
+                    Instagram 
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
