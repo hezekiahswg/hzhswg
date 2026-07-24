@@ -1,13 +1,8 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background:
-        radial-gradient(circle at center,
-            rgba(255, 0, 0, 0.719) 0%,
-            rgba(255, 0, 0, 0.25) 20%,
-            rgba(233, 10, 10, 0.301) 35%,
-            transparent 60%),
-        #4e0000;
-    color: rgb(255, 255, 255);
+    background-color: white;
+    color: black;
+    
     min-height: 100vh;
 }
 
@@ -22,4 +17,27 @@ body {
 .nav-link {
     color: white;
     font-weight: bold;
+}
+
+.skill{
+    color: #003688;
+
+}
+
+.deksripsi{
+    color: rgba(0, 132, 255, .5);
+}
+
+.py-5{
+    background: linear-gradient(
+  180deg, 
+  rgb(255, 255, 255) 0%,      /* Warna bagian paling ATAS */
+  rgb(0, 135, 255, 0.4) 50%,    /* Warna UTAMA di TENGAH */
+  rgb(255, 255, 255) 100%     /* Warna bagian paling BAWAH */
+);
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
